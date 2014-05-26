@@ -177,11 +177,10 @@ private: System::Void LOGO_Click(System::Object^  sender, System::EventArgs^  e)
 }
 private: System::Void button_index_Click(System::Object^  sender, System::EventArgs^  e) {
 
-			 this->Hide();	//Ukrywa menu g³ówne w tle
 			 overall_index^ form2 = gcnew overall_index();	//Tworzy zmienna form2
-			 form2->Show();	//Pokazuje menu po kliknieciu w Wykaz elementow
-			 //Nie wiem jak powrocic do menu glownego!!!
+			 form2->Show();	//Pokazuje menu po kliknieciu w Wykaz elementow	
 			 
+
 }
 
 };

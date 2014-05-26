@@ -1,5 +1,6 @@
 #pragma once
 
+
 namespace PROJECT_PO_EKA_INWENTORY {
 
 	using namespace System;
@@ -125,7 +126,7 @@ namespace PROJECT_PO_EKA_INWENTORY {
 			this->Name = L"overall_index";
 			this->ShowIcon = false;
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-			this->Text = L"overall_index";
+			this->Text = L"Wykaz elementów";
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -136,7 +137,7 @@ namespace PROJECT_PO_EKA_INWENTORY {
 	private: System::Void o_i_return_Click(System::Object^  sender, System::EventArgs^  e) {
 				 
 				 this->Close();
-				 Application::Exit();	//UWAGA TUTAJ ZMIENIC NA COS ZEBY POWROCILO DO MENU GLOWNEGO!
+				 
 	}
 };
 }
