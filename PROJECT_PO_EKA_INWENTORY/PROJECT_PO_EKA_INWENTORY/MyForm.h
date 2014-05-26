@@ -1,4 +1,6 @@
 #pragma once
+#include "overall_index.h"
+
 
 namespace PROJECT_PO_EKA_INWENTORY {
 
@@ -77,113 +79,75 @@ namespace PROJECT_PO_EKA_INWENTORY {
 			// 
 			// button_index
 			// 
-			this->button_index->Location = System::Drawing::Point(12, 86);
+			resources->ApplyResources(this->button_index, L"button_index");
 			this->button_index->Name = L"button_index";
-			this->button_index->Size = System::Drawing::Size(109, 23);
-			this->button_index->TabIndex = 0;
-			this->button_index->Text = L"Wykaz elementów";
 			this->button_index->UseVisualStyleBackColor = true;
+			this->button_index->Click += gcnew System::EventHandler(this, &MyForm::button_index_Click);
 			// 
 			// button_take
 			// 
-			this->button_take->Location = System::Drawing::Point(12, 115);
+			resources->ApplyResources(this->button_take, L"button_take");
 			this->button_take->Name = L"button_take";
-			this->button_take->Size = System::Drawing::Size(109, 23);
-			this->button_take->TabIndex = 1;
-			this->button_take->Text = L"Pobierz z magazynu";
 			this->button_take->UseVisualStyleBackColor = true;
 			// 
 			// button_add
 			// 
-			this->button_add->Location = System::Drawing::Point(12, 144);
+			resources->ApplyResources(this->button_add, L"button_add");
 			this->button_add->Name = L"button_add";
-			this->button_add->Size = System::Drawing::Size(109, 23);
-			this->button_add->TabIndex = 2;
-			this->button_add->Text = L"Dodaj do magazynu";
 			this->button_add->UseVisualStyleBackColor = true;
 			// 
 			// button_inv
 			// 
-			this->button_inv->Location = System::Drawing::Point(12, 173);
+			resources->ApplyResources(this->button_inv, L"button_inv");
 			this->button_inv->Name = L"button_inv";
-			this->button_inv->Size = System::Drawing::Size(109, 23);
-			this->button_inv->TabIndex = 3;
-			this->button_inv->Text = L"Inwentaryzacja";
 			this->button_inv->UseVisualStyleBackColor = true;
 			// 
 			// label_overall
 			// 
-			this->label_overall->AutoSize = true;
-			this->label_overall->Location = System::Drawing::Point(205, 96);
+			resources->ApplyResources(this->label_overall, L"label_overall");
 			this->label_overall->Name = L"label_overall";
-			this->label_overall->Size = System::Drawing::Size(195, 13);
-			this->label_overall->TabIndex = 4;
-			this->label_overall->Text = L"£¹czna suma elementów w magazynie: ";
 			// 
 			// label_inv_overall
 			// 
-			this->label_inv_overall->AutoSize = true;
-			this->label_inv_overall->Location = System::Drawing::Point(250, 125);
+			resources->ApplyResources(this->label_inv_overall, L"label_inv_overall");
 			this->label_inv_overall->Name = L"label_inv_overall";
-			this->label_inv_overall->Size = System::Drawing::Size(150, 13);
-			this->label_inv_overall->TabIndex = 5;
-			this->label_inv_overall->Text = L"Rzeczywista iloœæ elementów: ";
 			this->label_inv_overall->Click += gcnew System::EventHandler(this, &MyForm::label_inv_overall_Click);
 			// 
 			// label_types_count
 			// 
-			this->label_types_count->AutoSize = true;
-			this->label_types_count->Location = System::Drawing::Point(261, 154);
+			resources->ApplyResources(this->label_types_count, L"label_types_count");
 			this->label_types_count->Name = L"label_types_count";
-			this->label_types_count->Size = System::Drawing::Size(139, 13);
-			this->label_types_count->TabIndex = 6;
-			this->label_types_count->Text = L"Iloœæ Rodzajów elementów: ";
 			// 
 			// button_remove
 			// 
-			this->button_remove->Location = System::Drawing::Point(12, 202);
+			resources->ApplyResources(this->button_remove, L"button_remove");
 			this->button_remove->Name = L"button_remove";
-			this->button_remove->Size = System::Drawing::Size(139, 23);
-			this->button_remove->TabIndex = 7;
-			this->button_remove->Text = L"Usuñ element z magazynu";
 			this->button_remove->UseVisualStyleBackColor = true;
 			// 
 			// LOGO
 			// 
 			this->LOGO->BackColor = System::Drawing::Color::Transparent;
-			this->LOGO->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"LOGO.Image")));
-			this->LOGO->Location = System::Drawing::Point(12, 12);
+			resources->ApplyResources(this->LOGO, L"LOGO");
 			this->LOGO->Name = L"LOGO";
-			this->LOGO->Size = System::Drawing::Size(444, 68);
-			this->LOGO->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
-			this->LOGO->TabIndex = 8;
 			this->LOGO->TabStop = false;
 			this->LOGO->Click += gcnew System::EventHandler(this, &MyForm::LOGO_Click);
 			// 
 			// Program_by
 			// 
-			this->Program_by->AutoSize = true;
-			this->Program_by->Location = System::Drawing::Point(93, 268);
+			resources->ApplyResources(this->Program_by, L"Program_by");
 			this->Program_by->Name = L"Program_by";
-			this->Program_by->Size = System::Drawing::Size(63, 13);
-			this->Program_by->TabIndex = 9;
-			this->Program_by->Text = L"Program by:";
 			this->Program_by->Click += gcnew System::EventHandler(this, &MyForm::Program_by_Click);
 			// 
 			// names
 			// 
-			this->names->AutoSize = true;
-			this->names->Location = System::Drawing::Point(162, 268);
+			resources->ApplyResources(this->names, L"names");
 			this->names->Name = L"names";
-			this->names->Size = System::Drawing::Size(294, 13);
-			this->names->TabIndex = 10;
-			this->names->Text = L"Rybczyñski Micha³, Jêdrzej Przybyszewski, Mateusz Œwiêtek";
 			// 
 			// MyForm
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
+			resources->ApplyResources(this, L"$this");
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(468, 290);
+			this->BackColor = System::Drawing::SystemColors::HotTrack;
 			this->Controls->Add(this->names);
 			this->Controls->Add(this->Program_by);
 			this->Controls->Add(this->LOGO);
@@ -195,8 +159,10 @@ namespace PROJECT_PO_EKA_INWENTORY {
 			this->Controls->Add(this->button_add);
 			this->Controls->Add(this->button_take);
 			this->Controls->Add(this->button_index);
+			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::Fixed3D;
+			this->MaximizeBox = false;
 			this->Name = L"MyForm";
-			this->Text = L"Inwentarz Elektronika 2014";
+			this->ShowIcon = false;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->LOGO))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
@@ -209,5 +175,14 @@ private: System::Void Program_by_Click(System::Object^  sender, System::EventArg
 }
 private: System::Void LOGO_Click(System::Object^  sender, System::EventArgs^  e) {
 }
+private: System::Void button_index_Click(System::Object^  sender, System::EventArgs^  e) {
+
+			 this->Hide();	//Ukrywa menu g³ówne w tle
+			 overall_index^ form2 = gcnew overall_index();	//Tworzy zmienna form2
+			 form2->Show();	//Pokazuje menu po kliknieciu w Wykaz elementow
+			 //Nie wiem jak powrocic do menu glownego!!!
+			 
+}
+
 };
 }
