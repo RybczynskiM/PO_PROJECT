@@ -141,7 +141,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button_index.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="button_take.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 115</value>
@@ -165,7 +165,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button_take.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="button_add.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 144</value>
@@ -189,7 +189,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button_add.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="button_inv.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 173</value>
@@ -213,7 +213,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button_inv.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="label_overall.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -240,7 +240,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_overall.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="label_inv_overall.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -267,7 +267,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_inv_overall.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="label_types_count.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -294,7 +294,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label_types_count.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="button_remove.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 202</value>
@@ -318,7 +318,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button_remove.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="LOGO.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2149,7 +2149,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LOGO.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="Program_by.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2176,7 +2176,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Program_by.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="names.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2203,6 +2203,39 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;names.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TURN_OFF.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="TURN_OFF.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="TURN_OFF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="TURN_OFF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 202</value>
+  </data>
+  <data name="TURN_OFF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="TURN_OFF.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="TURN_OFF.Text" xml:space="preserve">
+    <value>Wyjście</value>
+  </data>
+  <data name="&gt;&gt;TURN_OFF.Name" xml:space="preserve">
+    <value>TURN_OFF</value>
+  </data>
+  <data name="&gt;&gt;TURN_OFF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TURN_OFF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TURN_OFF.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

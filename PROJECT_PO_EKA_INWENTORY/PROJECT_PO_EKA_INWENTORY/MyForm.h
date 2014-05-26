@@ -1,5 +1,6 @@
 #pragma once
 #include "overall_index.h"
+#include "take_form.h"
 
 
 namespace PROJECT_PO_EKA_INWENTORY {
@@ -48,6 +49,8 @@ namespace PROJECT_PO_EKA_INWENTORY {
 	private: System::Windows::Forms::PictureBox^  LOGO;
 	private: System::Windows::Forms::Label^  Program_by;
 	private: System::Windows::Forms::Label^  names;
+	private: System::Windows::Forms::Button^  TURN_OFF;
+
 
 	private:
 		/// <summary>
@@ -74,11 +77,13 @@ namespace PROJECT_PO_EKA_INWENTORY {
 			this->LOGO = (gcnew System::Windows::Forms::PictureBox());
 			this->Program_by = (gcnew System::Windows::Forms::Label());
 			this->names = (gcnew System::Windows::Forms::Label());
+			this->TURN_OFF = (gcnew System::Windows::Forms::Button());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->LOGO))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// button_index
 			// 
+			this->button_index->Cursor = System::Windows::Forms::Cursors::Hand;
 			resources->ApplyResources(this->button_index, L"button_index");
 			this->button_index->Name = L"button_index";
 			this->button_index->UseVisualStyleBackColor = true;
@@ -86,18 +91,22 @@ namespace PROJECT_PO_EKA_INWENTORY {
 			// 
 			// button_take
 			// 
+			this->button_take->Cursor = System::Windows::Forms::Cursors::Hand;
 			resources->ApplyResources(this->button_take, L"button_take");
 			this->button_take->Name = L"button_take";
 			this->button_take->UseVisualStyleBackColor = true;
+			this->button_take->Click += gcnew System::EventHandler(this, &MyForm::button_take_Click);
 			// 
 			// button_add
 			// 
+			this->button_add->Cursor = System::Windows::Forms::Cursors::Hand;
 			resources->ApplyResources(this->button_add, L"button_add");
 			this->button_add->Name = L"button_add";
 			this->button_add->UseVisualStyleBackColor = true;
 			// 
 			// button_inv
 			// 
+			this->button_inv->Cursor = System::Windows::Forms::Cursors::Hand;
 			resources->ApplyResources(this->button_inv, L"button_inv");
 			this->button_inv->Name = L"button_inv";
 			this->button_inv->UseVisualStyleBackColor = true;
@@ -120,6 +129,7 @@ namespace PROJECT_PO_EKA_INWENTORY {
 			// 
 			// button_remove
 			// 
+			this->button_remove->Cursor = System::Windows::Forms::Cursors::Hand;
 			resources->ApplyResources(this->button_remove, L"button_remove");
 			this->button_remove->Name = L"button_remove";
 			this->button_remove->UseVisualStyleBackColor = true;
@@ -143,11 +153,25 @@ namespace PROJECT_PO_EKA_INWENTORY {
 			resources->ApplyResources(this->names, L"names");
 			this->names->Name = L"names";
 			// 
+			// TURN_OFF
+			// 
+			this->TURN_OFF->BackColor = System::Drawing::SystemColors::HotTrack;
+			resources->ApplyResources(this->TURN_OFF, L"TURN_OFF");
+			this->TURN_OFF->Cursor = System::Windows::Forms::Cursors::Hand;
+			this->TURN_OFF->FlatAppearance->BorderColor = System::Drawing::Color::Red;
+			this->TURN_OFF->FlatAppearance->BorderSize = 5;
+			this->TURN_OFF->ForeColor = System::Drawing::Color::Red;
+			this->TURN_OFF->Name = L"TURN_OFF";
+			this->TURN_OFF->UseVisualStyleBackColor = false;
+			this->TURN_OFF->Click += gcnew System::EventHandler(this, &MyForm::TURN_OFF_Click);
+			// 
 			// MyForm
 			// 
 			resources->ApplyResources(this, L"$this");
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::SystemColors::HotTrack;
+			this->ControlBox = false;
+			this->Controls->Add(this->TURN_OFF);
 			this->Controls->Add(this->names);
 			this->Controls->Add(this->Program_by);
 			this->Controls->Add(this->LOGO);
@@ -175,7 +199,7 @@ private: System::Void Program_by_Click(System::Object^  sender, System::EventArg
 }
 private: System::Void LOGO_Click(System::Object^  sender, System::EventArgs^  e) {
 }
-private: System::Void button_index_Click(System::Object^  sender, System::EventArgs^  e) {
+private: System::Void button_index_Click(System::Object^  sender, System::EventArgs^  e) {			//Przycisk Wykaz Elementów
 
 			 overall_index^ form2 = gcnew overall_index();	//Tworzy zmienna form2
 			 form2->Show();	//Pokazuje menu po kliknieciu w Wykaz elementow	
@@ -183,5 +207,17 @@ private: System::Void button_index_Click(System::Object^  sender, System::EventA
 
 }
 
+private: System::Void button_take_Click(System::Object^  sender, System::EventArgs^  e) {			//Przycisk Pobierz z magazynu
+
+			 take_form^ form3 = gcnew take_form();
+			 form3->Show();
+
+}
+private: System::Void TURN_OFF_Click(System::Object^  sender, System::EventArgs^  e) {
+
+			 Application::Exit();
+}
+private: System::Void dateTimePicker1_ValueChanged(System::Object^  sender, System::EventArgs^  e) {
+}
 };
 }

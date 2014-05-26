@@ -1,5 +1,6 @@
   PROJECT_PO_EKA_INWENTORY.MyForm.resources - Embedded, ContainedInManifestFile, 
   PROJECT_PO_EKA_INWENTORY.overall_index.resources - Embedded, ContainedInManifestFile, 
+  PROJECT_PO_EKA_INWENTORY.take_form.resources - Embedded, ContainedInManifestFile, 
 ImageRuntimeVersion: v4.0.30319
 Assembly PROJECT_PO_EKA_INWENTORY, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
 	hash=SHA1, flags=PublicKey
@@ -16,6 +17,9 @@ Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=
 Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
 	hash=None, flags=None
 Class PROJECT_PO_EKA_INWENTORY.overall_index: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class PROJECT_PO_EKA_INWENTORY.take_form: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class PROJECT_PO_EKA_INWENTORY.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit

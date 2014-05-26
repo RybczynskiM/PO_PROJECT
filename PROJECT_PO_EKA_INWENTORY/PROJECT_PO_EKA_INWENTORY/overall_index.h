@@ -102,6 +102,7 @@ namespace PROJECT_PO_EKA_INWENTORY {
 			// 
 			// o_i_return
 			// 
+			this->o_i_return->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->o_i_return->Location = System::Drawing::Point(71, 330);
 			this->o_i_return->Name = L"o_i_return";
 			this->o_i_return->Size = System::Drawing::Size(75, 23);
@@ -122,11 +123,13 @@ namespace PROJECT_PO_EKA_INWENTORY {
 			this->Controls->Add(this->o_i_value);
 			this->Controls->Add(this->select_type);
 			this->Controls->Add(this->comboBox1);
+			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::Fixed3D;
 			this->MaximizeBox = false;
 			this->Name = L"overall_index";
 			this->ShowIcon = false;
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"Wykaz elementów";
+			this->Load += gcnew System::EventHandler(this, &overall_index::overall_index_Load);
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -138,6 +141,9 @@ namespace PROJECT_PO_EKA_INWENTORY {
 				 
 				 this->Close();
 				 
+				 
 	}
+private: System::Void overall_index_Load(System::Object^  sender, System::EventArgs^  e) {
+}
 };
 }
