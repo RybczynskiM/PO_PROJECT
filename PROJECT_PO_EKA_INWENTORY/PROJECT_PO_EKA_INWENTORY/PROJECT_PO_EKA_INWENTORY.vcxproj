@@ -78,7 +78,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Element.cpp" />
     <ClCompile Include="MyForm.cpp" />
     <ClCompile Include="overall_index.cpp" />
     <ClCompile Include="take_form.cpp" />

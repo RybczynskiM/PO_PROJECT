@@ -18,5 +18,5 @@ int Element::get_typ()
 	//	res = "KONDENSATOR";
 	//}
 	//return res;
-	return typ;
+	//return typ;
 }

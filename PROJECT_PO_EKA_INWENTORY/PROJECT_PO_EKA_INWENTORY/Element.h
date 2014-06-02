@@ -1,5 +1,7 @@
-class  Element :
-{     public:
+
+class  Element
+{     
+public:
 	int rodzaj;
 	int ilosc;
 
@@ -42,13 +44,15 @@ public:
 };
 
 class Dioda : public Element
-{   public:
+{   
+public:
 	float prad_przebicia;
 	float opornosc;
 };
 
 class Tyrystor : public Element
-{   public:
+{   
+public:
 	float prad_gran_obciazenia;
 	float graniczne_nap_pow;
 };
