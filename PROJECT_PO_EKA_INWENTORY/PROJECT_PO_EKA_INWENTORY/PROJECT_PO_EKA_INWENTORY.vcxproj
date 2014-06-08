@@ -78,11 +78,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="dod_el.cpp" />
     <ClCompile Include="MyForm.cpp" />
     <ClCompile Include="overall_index.cpp" />
     <ClCompile Include="take_form.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="dod_el.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="Element.h" />
     <ClInclude Include="MyForm.h">
       <FileType>CppForm</FileType>
@@ -95,6 +99,9 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="dod_el.resx">
+      <DependentUpon>dod_el.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MyForm.resx">
       <DependentUpon>MyForm.h</DependentUpon>
     </EmbeddedResource>

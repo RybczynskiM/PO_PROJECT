@@ -1,9 +1,37 @@
-﻿Build started 2014-06-02 11:41:29.
-     1>Project "C:\Users\Michal\Documents\GitHub\PO_PROJECT\PROJECT_PO_EKA_INWENTORY\PROJECT_PO_EKA_INWENTORY\PROJECT_PO_EKA_INWENTORY.vcxproj" on node 2 (Build target(s)).
-     1>Link:
-         PROJECT_PO_EKA_INWENTORY.vcxproj -> C:\Users\Michal\Documents\GitHub\PO_PROJECT\PROJECT_PO_EKA_INWENTORY\Debug\PROJECT_PO_EKA_INWENTORY.exe
-     1>Done Building Project "C:\Users\Michal\Documents\GitHub\PO_PROJECT\PROJECT_PO_EKA_INWENTORY\PROJECT_PO_EKA_INWENTORY\PROJECT_PO_EKA_INWENTORY.vcxproj" (Build target(s)).
+﻿Build started 2014-06-08 15:27:17.
+     1>Project "C:\Users\Mateuszeq\Documents\GitHub\PO_PROJECT\PROJECT_PO_EKA_INWENTORY\PROJECT_PO_EKA_INWENTORY\PROJECT_PO_EKA_INWENTORY.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib MyForm.cpp overall_index.cpp
+         MyForm.cpp
+     1>c:\users\mateuszeq\documents\github\po_project\project_po_eka_inwentory\project_po_eka_inwentory\dod_el.h(495): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\mateuszeq\documents\github\po_project\project_po_eka_inwentory\project_po_eka_inwentory\dod_el.h(501): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\mateuszeq\documents\github\po_project\project_po_eka_inwentory\project_po_eka_inwentory\dod_el.h(505): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\mateuszeq\documents\github\po_project\project_po_eka_inwentory\project_po_eka_inwentory\dod_el.h(509): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\mateuszeq\documents\github\po_project\project_po_eka_inwentory\project_po_eka_inwentory\dod_el.h(513): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\mateuszeq\documents\github\po_project\project_po_eka_inwentory\project_po_eka_inwentory\dod_el.h(517): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\mateuszeq\documents\github\po_project\project_po_eka_inwentory\project_po_eka_inwentory\dod_el.h(521): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\mateuszeq\documents\github\po_project\project_po_eka_inwentory\project_po_eka_inwentory\dod_el.h(522): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\mateuszeq\documents\github\po_project\project_po_eka_inwentory\project_po_eka_inwentory\dod_el.h(523): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\mateuszeq\documents\github\po_project\project_po_eka_inwentory\project_po_eka_inwentory\dod_el.h(524): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\mateuszeq\documents\github\po_project\project_po_eka_inwentory\project_po_eka_inwentory\dod_el.h(525): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\mateuszeq\documents\github\po_project\project_po_eka_inwentory\project_po_eka_inwentory\dod_el.h(526): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\mateuszeq\documents\github\po_project\project_po_eka_inwentory\project_po_eka_inwentory\dod_el.h(548): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mateuszeq\documents\github\po_project\project_po_eka_inwentory\project_po_eka_inwentory\dod_el.h(553): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mateuszeq\documents\github\po_project\project_po_eka_inwentory\project_po_eka_inwentory\dod_el.h(557): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mateuszeq\documents\github\po_project\project_po_eka_inwentory\project_po_eka_inwentory\dod_el.h(561): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mateuszeq\documents\github\po_project\project_po_eka_inwentory\project_po_eka_inwentory\dod_el.h(565): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mateuszeq\documents\github\po_project\project_po_eka_inwentory\project_po_eka_inwentory\dod_el.h(569): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         overall_index.cpp
+         Generating Code...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Mateuszeq\Documents\GitHub\PO_PROJECT\PROJECT_PO_EKA_INWENTORY\Debug\PROJECT_PO_EKA_INWENTORY.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\PROJECT_PO_EKA_INWENTORY.dod_el.resources /ASSEMBLYRESOURCE:Debug\PROJECT_PO_EKA_INWENTORY.MyForm.resources /ASSEMBLYRESOURCE:Debug\PROJECT_PO_EKA_INWENTORY.overall_index.resources /ASSEMBLYRESOURCE:Debug\PROJECT_PO_EKA_INWENTORY.take_form.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Mateuszeq\Documents\GitHub\PO_PROJECT\PROJECT_PO_EKA_INWENTORY\Debug\PROJECT_PO_EKA_INWENTORY.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"Main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\dod_el.obj
+         Debug\MyForm.obj
+         Debug\overall_index.obj
+         Debug\take_form.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         PROJECT_PO_EKA_INWENTORY.vcxproj -> C:\Users\Mateuszeq\Documents\GitHub\PO_PROJECT\PROJECT_PO_EKA_INWENTORY\Debug\PROJECT_PO_EKA_INWENTORY.exe
+     1>Done Building Project "C:\Users\Mateuszeq\Documents\GitHub\PO_PROJECT\PROJECT_PO_EKA_INWENTORY\PROJECT_PO_EKA_INWENTORY\PROJECT_PO_EKA_INWENTORY.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.06
+Time Elapsed 00:00:02.86

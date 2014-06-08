@@ -1,6 +1,8 @@
 #pragma once
 #include "overall_index.h"
 #include "take_form.h"
+#include "dod_el.h"
+
 
 
 namespace PROJECT_PO_EKA_INWENTORY {
@@ -50,6 +52,9 @@ namespace PROJECT_PO_EKA_INWENTORY {
 	private: System::Windows::Forms::Label^  Program_by;
 	private: System::Windows::Forms::Label^  names;
 	private: System::Windows::Forms::Button^  TURN_OFF;
+
+
+
 
 
 	private:
@@ -103,6 +108,7 @@ namespace PROJECT_PO_EKA_INWENTORY {
 			resources->ApplyResources(this->button_add, L"button_add");
 			this->button_add->Name = L"button_add";
 			this->button_add->UseVisualStyleBackColor = true;
+			this->button_add->Click += gcnew System::EventHandler(this, &MyForm::button_add_Click);
 			// 
 			// button_inv
 			// 
@@ -218,6 +224,12 @@ private: System::Void TURN_OFF_Click(System::Object^  sender, System::EventArgs^
 			 Application::Exit();
 }
 private: System::Void dateTimePicker1_ValueChanged(System::Object^  sender, System::EventArgs^  e) {
+}
+private: System::Void button_add_Click(System::Object^  sender, System::EventArgs^  e) {
+			 dod_el^ form4 = gcnew dod_el();
+			 form4->Show();
+}
+private: System::Void label1_Click(System::Object^  sender, System::EventArgs^  e) {
 }
 };
 }

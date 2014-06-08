@@ -1,0 +1,13 @@
+Podczas ostatniej operacji dodano do magazynu :
+1
+Cewek o parametrach  2  [H]
+0
+Diod o parametrach  3  [mA]
+0
+Kondensatorow o parametrach  2   [F]
+0
+Rezystorow o parametrach  0   [Ohm]
+0
+Tyrystorow o parametrach  0   [mA]
+0
+Tranzystorow o Parametrach  0  [V]

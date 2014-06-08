@@ -24,6 +24,9 @@
     <ClCompile Include="take_form.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="dod_el.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyForm.h">
@@ -36,6 +39,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Element.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dod_el.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
