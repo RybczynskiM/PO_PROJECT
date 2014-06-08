@@ -518,15 +518,22 @@ private: System::Void itra_TextChanged(System::Object^  sender, System::EventArg
 }
 private: System::Void button1_Click_1(System::Object^  sender, System::EventArgs^  e) {
 			 Element cew,dio,kon,reza,tyr,tra;
-			 cew.ilosc = Double::Parse(ic->Text);
-			 dio.ilosc = Double::Parse(id->Text);
-			 kon.ilosc = Double::Parse(ik->Text);
-			 reza.ilosc = Double::Parse(ir->Text);
-			 tyr.ilosc = Double::Parse(ityr->Text);
-			 tra.ilosc = Double::Parse(itra->Text);
+			 
+			 if (ic->Text != "")
+			     cew.ilosc = Double::Parse(ic->Text);
+			 if (id->Text != "")
+				dio.ilosc = Double::Parse(id->Text);
+			 if (ik->Text != "")
+				kon.ilosc = Double::Parse(ik->Text);
+			 if (ir->Text != "")
+				reza.ilosc = Double::Parse(ir->Text);
+			 if (ityr->Text != "")
+				tyr.ilosc = Double::Parse(ityr->Text);
+			 if (itra->Text != "")
+				tra.ilosc = Double::Parse(itra->Text);
 
 			 String^filename = "Logi.txt";
-			 StreamWriter^sw = gcnew StreamWriter(filename);
+			 StreamWriter^sw = gcnew StreamWriter(filename, true);
 			 sw->WriteLine("Podczas ostatniej operacji dodano do magazynu :");
 			 sw->WriteLine(ic->Text);
 			 sw->WriteLine("Cewek o parametrach  "+(ind->Text)+("  [H]"));

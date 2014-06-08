@@ -1,0 +1,26 @@
+Podczas ostatniej operacji dodano do magazynu :
+
+Cewek o parametrach    [H]
+5
+Diod o parametrach  4444  [mA]
+
+Kondensatorow o parametrach     [F]
+
+Rezystorow o parametrach     [Ohm]
+
+Tyrystorow o parametrach     [mA]
+
+Tranzystorow o Parametrach    [V]
+Podczas ostatniej operacji dodano do magazynu :
+
+Cewek o parametrach    [H]
+
+Diod o parametrach    [mA]
+
+Kondensatorow o parametrach     [F]
+4
+Rezystorow o parametrach  554   [Ohm]
+
+Tyrystorow o parametrach     [mA]
+
+Tranzystorow o Parametrach    [V]
